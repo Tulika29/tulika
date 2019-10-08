@@ -1,0 +1,86 @@
+#boxContainer{
+margin: auto;
+position: absolute;
+background-color: cornflowerblue;
+width:70%;
+height:121%;
+border-style: solid;
+}
+img{
+    height: 20%;
+    }
+h2{
+    color:aliceblue;
+}
+p{
+    color:black;
+    line-height: 0.5cm;
+}
+#header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(128, 0, 0);
+    text-align: center;
+    position: absolute;
+    top:20px;
+    left:238px;
+    width:650px;
+    height:115px;
+    background-color:coral; 
+}
+aside{
+    text-align: center;
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+}
+#rightcolumn{
+    position: absolute;
+    top:140px;
+    left:350px;
+    width:545px;
+    height:500px;
+    background-color:burlywood;
+}
+table{
+    position: absolute;
+    top:350px;
+    border:2px;
+    border-style: solid;
+    width:545px;
+    height:100px;
+}
+td{
+    border:1px;
+    border-style: dashed;
+    color:darkred;
+}
+#leftcolumn{
+    position: absolute;
+    top: 65%;
+    left:1%;
+    width:25%;
+    height:53%;
+    background-color: bisque;
+}
+#Refrence{
+    position:absolute;
+    top:620px;
+    width:890px;
+    height:90px;
+    background-color:rgb(128, 143, 103);
+}
+ul{
+    line-height: 4mm;
+}
+a{
+    color:blue;
+}
+#test{width: 100px;     
+    padding: 10px;
+    z-index: 3;
+}
+
+#test2{
+
+    line-height: 4mm;
+}

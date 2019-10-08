@@ -1,0 +1,32 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+h1,h3,h4{
+    font-family: Arial, Helvetica, sans-serif
+}
+h1 {
+    color:rgb(185, 30, 30);
+    border: 1px;
+    border-style: dotted;
+    width: 80%;
+    /* margin: auto; */
+    margin-left: 10%;
+    margin-right: 50%;
+    text-align: center;
+    padding: 5px;
+    }
+aside{
+    text-align: center;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul {
+    list-style-type: disc;
+}
+ul ul {
+    list-style-type: circle;
+}
+
