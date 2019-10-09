@@ -1,0 +1,197 @@
+div{
+    border:1px;
+    border-style: ridge;
+    border-color:black;
+    float:left;
+    padding:1%;
+    box-sizing:border-box;
+    margin:1%;
+}
+/* for mobile */
+@media only screen and (min-width:320px)
+{
+[class*="col-"] {
+    font-size: 1em;
+    width: 94%;
+    background-color: lightcoral;
+}
+/* for tablet */
+@media only screen and (min-width:768px)
+{
+    [class*="col-t-"]
+    {
+        font-size: 1em;
+        width: 94%;
+        background-color: rgb(172, 112, 112);  
+    }
+    .col-t-13{
+        width:380px;
+    }
+}
+
+
+/* For Desktop */
+@media only screen and (min-width:960px)
+{
+    .col-d-1
+    {
+        background-color:rgb(99, 146, 184);
+        width:80%;
+        background-image:url("../img/wallpaper8.jpg");
+    
+     }
+    .main
+    {
+        width:80%;
+        margin-top: 85px;
+        background-color:cadetblue;
+        text-align: center;
+    }
+    .col-d-13
+    {
+        margin-left: 300px;
+    }
+
+    .col-d-2
+    {
+        width:70%;
+        height:50%;
+        margin:70px;
+        margin-left: 10px;
+        margin-right: 0px;
+        background-image:url("../img/wallpaper2.jpg");
+    }
+    .col-d-3
+    {
+        width:90%;
+        font-size: 1.2em;
+        text-align: center;
+        background-color: bisque;
+        margin-top: 70px;
+    }
+    .col-d-4
+    {
+        width:90%;
+        background-color: rgb(78, 143, 197);
+       
+    }
+    .col-d-5
+    {
+        width:45%;
+        background-color:cornflowerblue;
+        height:200px;
+    }
+    .col-d-6
+    {
+        width:43%;
+        background-color:rgb(111, 138, 189);
+        height:200px;
+    }
+    .col-d-7
+    {
+        width:90%;
+        background-color: rgb(70, 126, 158);
+    }
+    .col-d-8
+    {
+        width:90%;
+        background-color: rgb(78, 143, 197);
+    }
+    .col-d-9
+    {
+        width:90%;
+        background-color:rgb(160, 122, 160);
+        margin:80px;
+
+    }
+    .col-d-10
+    {
+        margin:70px;
+        width:20%;
+        background-color: rgb(117, 175, 175);
+    }
+    .col-d-11
+    {
+        width:20%;
+        background-color: rgb(117, 175, 175);
+        margin:70px;
+    }
+    .col-d-12{
+        width:20%;
+        margin:70px;
+        background-color: rgb(117, 175, 175);
+    }
+    .col-d-14
+    {
+        margin-top: 100px;
+        background-image:url("../img/wallpaper11.jpg"); 
+        height:500px; 
+    }
+    #sixth{
+        color:black;
+        margin-top: 200px;
+        font-size: 1.20em;
+    }
+    #seventh{
+        margin-left: 500px;
+        margin-top:0.2pc;
+    }
+
+    
+}
+body
+{
+    background-image:url("../img/wallpaper4.jpg");
+    
+}
+
+  header{
+      color:black;
+  }
+  #about_me_details
+  {
+      float:left;
+      font-size: 1.5em;
+    
+  }
+  #about_me_img
+  {
+      width:25.5%;
+      height:2%;
+      float:left;
+      margin-top:70px;
+  }
+  #first{
+      float:left;
+  }
+  .headings {
+    /* overflow: hidden; */
+    background-color: #aaa; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.items {
+    list-style: none;
+    padding-left: 15px;
+    text-decoration: none;
+}
+#fourth{
+    display: flex;
+}
+#fifth{
+    margin-left: 35%;
+    margin-top: 0.25%;
+}
+label{
+    margin: 10%;}
+}
+.contact{
+margin-top: 70px;
+background-color:rgb(109, 139, 168);
+}
+    
+
+
